@@ -26,13 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-//
-//
-//
-//
-//
+// We make a variable called name and set it to Dane. 
+// If name is Mary
+// we console.log 'Hi, Mary!' 
+// If it doesnt then we console.log 'How do you do?'
 
 //CODE
 /*
@@ -48,10 +45,13 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called secret 
+// We make a variable called code and set it to 123
+// if code is 123
+// we set variable secret to super
+// and the code is multiplied by two
+// If code is more than 250, secret will be changed to duper
+// we console log "secret"
 
 //CODE
 /*
@@ -73,10 +73,13 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable isStudent to be true
+// We make a variable age to be 34
+// We make a variable zip to be 55407
+// If it's true that it is a student and zip code is more than 80000, we will console 'You're a student on the West Coast!'
+// If it's false that it is a student or age is less than 30, we will console 'What are your hobbies?'
+// if it's true that it is a student, we console 'Welcome to Prime!'
+// if anything else we console 'How about the weather?'
 
 //CODE
 /*
@@ -132,10 +135,15 @@ if (number >= 2) {
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true 
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
+// FIX line 142 - let colorOne = 'blue'
+// FIX line 143 - let colorTwo = 'red'
+
 /*
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
+
+//ADD to new line under 149 - colorTwo = 'purple'
 
 if (mix === true) {
   colorOne = 'purple';
@@ -146,9 +154,14 @@ if (mix === true) {
 // We check if temp is higher than 39 and if time is greater or equal to  4 
 // -- they are so we console.log 'throw away the food!'
 
+
+// CHANGE line 162 - let time = 4
+
 /*
 let temp = 40;
 const time = 4;
+
+// CHANGE line 166 - && instead of ||
 
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
@@ -163,10 +176,14 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+// FIX line 180 - if(age >= minAge)
+// DELETE line 182 - 183
+
 if(minAge <= age) {
   console.log('no entry');
 } else {
   console.log('enter');
 }
 */
+
 
